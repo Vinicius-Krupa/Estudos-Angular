@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-root',
   template: `
     <!-- <app-data-biding></app-data-biding>
-      <app-diretivas-estruturais></app-diretivas-estruturais> -->
+      <app-diretivas-estruturais></app-diretivas-estruturais> 
 
       <app-diretivas-atributos>
         <h1>Aulas de Diretivas Atributo</h1>
@@ -16,7 +16,9 @@ import { Component, OnInit } from '@angular/core';
         <h3>Nay Torres</h3>
       </app-diretivas-atributos>
 
-      <router-outlet></router-outlet>
+      <router-outlet></router-outlet>  -->
+
+      <app-diretivas-atributos></app-diretivas-atributos>
   `
 })
 export class AppComponent implements OnInit {
